@@ -3,22 +3,21 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
-div.title {
-  background-color: #43464B;
+div {
   border-style: groove;
   border-color: black;
-  width: 500px;
   margin: auto;
-  padding-top: 15px;
-  padding-bottom: 10px;
+}
+div.title {
+  background-color: #43464B;
+  width: 500px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 div.body {
   background-color: #87898C;
-  border-style: groove;
-  border-color: black;
   width: 350px;
-  margin: auto;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 #text {
   color: white;
