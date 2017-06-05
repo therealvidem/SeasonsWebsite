@@ -10,13 +10,13 @@ div {
 }
 div.title {
   background-color: #43464B;
-  width: 500px;
-  margin-top: 15px;
-  margin-bottom: 10px;
+  width: 1000px;
+  margin-top: 20px;
+  margin-bottom: 25px;
 }
 div.body {
   background-color: #87898C;
-  width: 350px;
+  width: 800px;
   margin-bottom: 20px;
 }
 #text {
