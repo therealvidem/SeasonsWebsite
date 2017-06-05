@@ -14,6 +14,10 @@ div.title {
   margin-top: 20px;
   margin-bottom: 25px;
 }
+h1 {
+  text-align: center;
+  letter-spacing: 2px;
+}
 div.body {
   background-color: #87898C;
   width: 800px;
