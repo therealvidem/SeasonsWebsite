@@ -1,0 +1,17 @@
+body {
+  background: "http://static.simpledesktops.com/uploads/desktops/2014/10/31/winter-moutains-01.png";
+}
+div.title {
+  background-color: #43464B;
+  border-style: groove;
+}
+div.body {
+  background-color: #87898C;
+  border-style: groove;
+  width: 500px;
+  margin: auto;
+}
+#text {
+  text-color: white;
+  margin: 5px;
+}
