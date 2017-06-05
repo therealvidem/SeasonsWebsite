@@ -1,5 +1,7 @@
 body {
   background-image: url("http://static.simpledesktops.com/uploads/desktops/2014/10/31/winter-moutains-01.png");
+  background-position: center;
+  background-attachment: fixed;
 }
 div.title {
   background-color: #43464B;
