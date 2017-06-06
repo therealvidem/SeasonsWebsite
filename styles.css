@@ -33,3 +33,12 @@ div.body {
   margin-left: 20px;
   text-indent: 20px;
 }
+ul#links li {
+  display: inline-block;
+  margin: 0;
+  padding: 1em 1em 0em 1em;
+  border-right: 1px dotted black;
+}
+ul#links li:last-child {
+  border-right: none; 
+}
