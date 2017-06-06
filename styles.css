@@ -43,10 +43,10 @@ ul#links {
   border-color: black;
   margin: auto;
   margin-top: 200px;
-  display: inline-block;
+  display: flex;
 }
 ul#links li {
-  display: inline-block;
+  flex: 1;
   padding: 1em 1em 0em 1em;
   border-right: 1px ridge black;
   text-align: center;
