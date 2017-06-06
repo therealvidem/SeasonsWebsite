@@ -36,10 +36,11 @@ div.body {
 ul#links li {
   display: inline-block;
   padding: 1em 1em 0em 1em;
-  border-right: 5px ridge black;
+  border-right: 1px ridge black;
+  vertical-align: center;
 }
 ul#links li:last-child {
-  border-right: none; 
+  border-right: none;
 }
 li a {
   text-align: center;
