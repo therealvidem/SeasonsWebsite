@@ -39,9 +39,9 @@ div.links {
 ul#links {
   background-color: #87898C;
   width: 600px;
-  height: 50px;
   border-style: groove;
   border-color: black;
+  margin: auto;
   margin-top: 200px;
   display: inline-block;
 }
