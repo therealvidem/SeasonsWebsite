@@ -42,8 +42,8 @@ ul#links {
   height: 50px;
   border-style: groove;
   border-color: black;
-  margin: auto;
   margin-top: 200px;
+  display: inline-block;
 }
 ul#links li {
   display: inline-block;
