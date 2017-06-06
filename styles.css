@@ -38,6 +38,11 @@ div.links {
   text-indent: 20px;
 }
 ul#links li {
+  background-color: #87898C;
+  width: 600px;
+  border-style: groove;
+  border-color: black;
+  margin: auto;
   display: inline-block;
   padding: 1em 1em 0em 1em;
   border-right: 1px ridge black;
