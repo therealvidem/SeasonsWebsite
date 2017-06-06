@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
 body {
   background-image: url("http://static.simpledesktops.com/uploads/desktops/2014/10/31/winter-moutains-01.png");
   background-position: center;
   background-attachment: fixed;
+  font-family: 'Slabo 27px', serif;
 }
 div {
   border-style: groove;
