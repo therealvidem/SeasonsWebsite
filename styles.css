@@ -4,6 +4,8 @@ body {
   background-position: center;
   background-attachment: fixed;
   font-family: 'Slabo 27px', serif;
+  color: white;
+  padding: 5px;
 }
 div {
   border-style: groove;
