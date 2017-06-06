@@ -33,6 +33,7 @@ div.links {
 }
 #text {
   color: white;
+  margin-left: 10px;
   text-indent: 20px;
 }
 ul#links {
@@ -46,13 +47,12 @@ ul#links {
 ul#links li {
   display: inline-block;
   padding: 1em 1em 0em 1em;
-  margin: auto;
   border-right: 1px ridge black;
   vertical-align: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 ul#links li:last-child {
   border-right: none;
-}
-li a {
-  text-align: center;
 }
