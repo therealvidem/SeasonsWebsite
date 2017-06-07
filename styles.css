@@ -5,52 +5,58 @@ body {
   background-attachment: fixed;
   font-family: 'Slabo 27px', serif;
   color: white;
+  padding: 5px;
 }
+
 div {
   border-style: groove;
   border-color: black;
   margin: auto;
 }
+
 div.title {
   background-color: #43464B;
   width: 1000px;
   margin-top: 20px;
   margin-bottom: 25px;
 }
+
 h1 {
   text-align: center;
   letter-spacing: 2px;
 }
+
 div.body {
   background-color: #87898C;
   width: 800px;
   margin-bottom: 20px;
 }
-div.links {
-  background-color: #87898C;
-  width: 600px;
-}
+
 #text {
   color: white;
-  margin-left: 20x;
+  margin-left: 15x;
   text-indent: 20px;
 }
+
 ul#links {
   background-color: #87898C;
-  width: 600px;
+  width: 400px;
   border-style: groove;
   border-color: black;
-  margin: auto;
-  margin-top: 200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  padding: 0px;
   display: flex;
   list-style-type: none;
 }
+
 ul#links li {
   flex: 1;
-  padding: 1em 1em 0em 1em;
-  border-right: 1px ridge black;
+  padding: 5px;
+  border-right: 2px dotted black;
   text-align: center;
 }
+
 ul#links li:last-child {
   border-right: none;
 }
