@@ -3,7 +3,6 @@ body {
   background-image: url("http://static.simpledesktops.com/uploads/desktops/2014/10/31/winter-moutains-01.png");
   background-position: center;
   background-attachment: fixed;
-  font-family: 'Slabo 27px', serif;
   color: white;
   padding: 5px;
 }
@@ -12,13 +11,18 @@ div {
   border-style: groove;
   border-color: black;
   margin: auto;
+  font-family: 'Slabo 27px', serif;
 }
 
-div.title {
+.title {
   background-color: #43464B;
   width: 1000px;
   margin-top: 20px;
   margin-bottom: 25px;
+}
+
+a:link, a:visited {
+  color: white;
 }
 
 h1 {
@@ -26,19 +30,28 @@ h1 {
   letter-spacing: 2px;
 }
 
-div.body {
-  background-color: #87898C;
+img {
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  background-color: white;
+  border: 3px solid black;
+}
+
+.body {
+  background-color: #7a8296;
+  background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
   width: 800px;
   margin-bottom: 20px;
 }
 
 #text {
   color: white;
-  margin-left: 15x;
+  margin-left: 15px;
   text-indent: 20px;
 }
 
-ul#links {
+#links {
   background-color: #87898C;
   width: 400px;
   border-style: groove;
@@ -50,13 +63,26 @@ ul#links {
   list-style-type: none;
 }
 
-ul#links li {
+#links li {
   flex: 1;
   padding: 5px;
   border-right: 2px dotted black;
   text-align: center;
 }
 
-ul#links li:last-child {
+#links li:last-child {
   border-right: none;
 }
+
+table {
+  width: 75%;
+  margin: auto;
+}
+
+table, th, td {
+  background-color: #C5D8F7;
+  color: black;
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+} 
