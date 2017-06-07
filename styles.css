@@ -12,6 +12,7 @@ div {
   border-color: black;
   margin: auto;
   font-family: 'Slabo 27px', serif;
+  font-size: 120%;
 }
 
 .title {
