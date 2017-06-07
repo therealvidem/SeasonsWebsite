@@ -26,6 +26,10 @@ a:link, a:visited {
   color: white;
 }
 
+a {
+  font-size: 130% 
+}
+
 h1 {
   text-align: center;
   letter-spacing: 2px;
