@@ -34,6 +34,7 @@ img {
   display: block;
   margin: auto;
   margin-top: 20px;
+  margin-bottom: 10px;
   background-color: white;
   border: 3px solid black;
 }
